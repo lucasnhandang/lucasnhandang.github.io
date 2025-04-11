@@ -2,41 +2,42 @@ window.addEventListener('DOMContentLoaded', function () {
     particlesJS("particles-js", {
         particles: {
             number: {
-                value: 100,
+                value: 120,
                 density: {
                     enable: true,
-                    value_area: 1000
+                    value_area: 800
                 }
             },
             color: {
-                value: "#ffffff"
+                value: "#fdf1c8"
             },
             shape: {
                 type: "circle"
             },
             opacity: {
-                value: 0.9,
+                value: 0.8,
                 random: true,
                 anim: {
                     enable: true,
-                    speed: 1,
+                    speed: 0.5,
                     opacity_min: 0.3,
                     sync: false
                 }
             },
             size: {
-                value: 1.2,
+                value: 1.8,
                 random: true
-            },
-            move: {
-                enable: true,
-                speed: 0.1,      // siêu chậm
-                direction: "none",
-                straight: false,
-                bounce: false
             },
             line_linked: {
                 enable: false
+            },
+            move: {
+                enable: true,
+                speed: 0.3,
+                direction: "none",
+                random: true,
+                straight: false,
+                out_mode: "out"
             }
         },
         interactivity: {
@@ -53,4 +54,5 @@ window.addEventListener('DOMContentLoaded', function () {
         },
         retina_detect: true
     });
+
 });
