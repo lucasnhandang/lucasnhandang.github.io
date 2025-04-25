@@ -1168,7 +1168,6 @@ section .container {
 }
 
 .education-box:hover {
-  background: #042b56eb !important;
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -1270,4 +1269,55 @@ section .container {
 #header .social-links a:hover {
   transform: scale(1.15);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+:root {
+  --box-bg: #243F4D; 
+}
+
+.experience-box,
+.education-box,
+.icon-box,
+.info-box,
+.services .icon-box,
+.contact .info-box {
+  background-color: var(--box-bg) !important;
+}
+
+.experience-box-transparent {
+  background-color: rgba(255,255,255,0.05) !important;
+  backdrop-filter: blur(4px);
+}
+
+/* === Skills: White boxes === */
+#skills .icon-box {
+  background-color: #ffffff !important;      
+  color: #203a43;                            
+  border: 1px solid rgba(0,0,0,0.1);          
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);     
+}
+
+#skills .icon-box h4 {
+  color: #203a43;                             
+}
+
+#skills .icon-box .skill-list img {
+  filter: none;
+}
+
+/* ====== Pastel Jade Border ====== */
+:root {
+  --box-border: rgba(255, 255, 255, 0.5);
+}
+
+.icon-box,
+.experience-box,
+.education-box,
+.info-box {
+  border: 1px solid var(--box-border) !important;
+}
+
+#skills .icon-box {
+  border: none !important;
 }
