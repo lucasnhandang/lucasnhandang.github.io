@@ -109,7 +109,7 @@ a:hover {
 
 #header h2 span {
   color: #79e5cb;
-  border-bottom: 2px solid #9e7f25;
+  border-bottom: 2px solid #e5bd46;
   padding-bottom: 6px;
 }
 
@@ -184,7 +184,7 @@ a:hover {
   color: #fff;
   font-size: 19px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .nav-menu a:before {
@@ -194,7 +194,7 @@ a:hover {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #9e7f25;
+  background-color: #e5bd46;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -370,7 +370,7 @@ section .container {
 
 .section-title h2 {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   padding: 0;
   line-height: 1px;
   margin: 0 0 20px 0;
@@ -676,8 +676,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #9e7f25;
-  border: 2px solid #9e7f25;
+  background: #e5bd46;
+  border: 2px solid #e5bd46;
 }
 
 /*--------------------------------------------------------------
@@ -1259,7 +1259,7 @@ section .container {
 
 .role-title {
   font-style: italic;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 #header .social-links a {
@@ -1321,3 +1321,34 @@ section .container {
 #skills .icon-box {
   border: none !important;
 }
+
+strong {
+  color: #79E5CB;
+  font-weight: bold;
+}
+
+#header h2 span {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+}
+
+.typing-title, .typing-title .typing {
+  font-family: 'Poppins', monospace;
+  font-weight: 400;
+}
+
+.typing-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.typing-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #e5bd46;
+}
+
