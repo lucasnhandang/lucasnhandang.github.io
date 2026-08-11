@@ -928,6 +928,14 @@ section .container {
   opacity: 1;
 }
 
+.portfolio-details .portfolio-info p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio-details .portfolio-info li {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .portfolio .portfolio-wrap:hover .portfolio-info::before {
   top: 15px;
   left: 15px;
